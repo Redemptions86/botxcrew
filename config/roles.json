@@ -1,0 +1,34 @@
+{
+    "role_permissions": {
+        "add_role": {
+            "roles": [
+                "Admin",
+                "Manager"
+            ],
+            "description": "Ajoute un r\u00c3\u00b4le \u00c3\u00a0 un utilisateur."
+        },
+        "remove_role": {
+            "roles": [
+                "Admin"
+            ],
+            "description": "Retire un r\u00c3\u00b4le d'un utilisateur."
+        },
+        "ban_user": {
+            "roles": [
+                "Admin",
+                "Moderator"
+            ],
+            "description": "Bannit un utilisateur du serveur."
+        },
+        "list_commands": {
+            "roles": [
+                "Admin"
+            ],
+            "description": "Affiche la liste des commandes disponibles."
+        },
+        "help": {
+            "roles": [],
+            "description": "Description de help"
+        }
+    }
+}
